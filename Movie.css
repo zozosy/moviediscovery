@@ -1,0 +1,147 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+}
+
+header {
+    background-color: #6f0000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width:80%;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+label {
+    display: block;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+input, button {
+    padding: 5px;
+    font-size: 25px;
+}
+
+button {
+    background-color: #6f0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#movies {
+    margin-top: 60px;
+}
+
+footer {
+    background-color: #6f0000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.title {
+  
+    font-size: 29px;
+    color: #6f0000;
+    text-decoration: underline;
+    
+  }
+  
+  .overview {
+    font-size: 16px;
+    color: #565555;
+    margin-bottom: 12px;
+  }
+  
+  .popularity {
+    font-size: 14px;
+    color: #999;
+  }
+  
+.poster-image {
+    width: 250px; 
+    height: 300px; 
+    border-radius: 10px;
+    border: 3px solid #6f0000;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    margin-bottom: 60px;
+  }
+  
+  /* Movie Form Styles */
+#movieForm {
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff ;
+    margin-bottom: 40px;
+    background-color:#000000;
+    border: 3px solid #6f0000;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+  }
+  
+  #movieForm label {
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  #movieForm input,
+  #movieForm textarea {
+    width: 100%;
+    /* padding: 8px; */
+    margin-bottom: 12px;
+    box-sizing: border-box;
+
+  }
+  
+  #movieForm button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #movieForm button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

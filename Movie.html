@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Discovery</title>
+    <link rel="stylesheet" href="Movie.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Movie Discovery</h1>
+    </header>
+
+    <section class="container">
+        <label for="query">Search for movies:</label>
+        <input type="text" id="query" placeholder="Enter a keyword...">
+        <button id="button">Get</button>
+
+        <div id="movies"></div>
+        
+    <form id="movieForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter movie name..">
+
+        <label for="description">Description:</label>
+        <textarea id="description" placeholder="Enter movie description..." rows="5" required></textarea>
+
+        <button id ="submit">Post Movie</button>
+    </form>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Movie Discovery</p>
+    </footer>
+
+    <script src="Movie.js"></script>
+</body>
+</html>
